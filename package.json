@@ -1,0 +1,23 @@
+{
+  "name": "vitepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs --port 3333",
+    "deploy": "deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/RicardoUU/vitepress",
+  "author": "supbose <yshxw@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "vitepress": "^0.22.4"
+  },
+  "dependencies": {
+    "wpk-reporter": "^0.9.3"
+  }
+}
