@@ -7,7 +7,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: deploy
+    - name: build
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
@@ -25,5 +25,5 @@ jobs:
         cos_bucket: ${{ secrets.COS_BUCKET }}
         cos_region: ${{ secrets.COS_REGION }}
         local_path: docs/.vitepress/dist/
-        remote_path: ricardo-wiki
+        remote_path: ricardo-sharing
         clean: true
