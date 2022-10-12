@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as o}from"./app.6f48252e.js";const h='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"pages/zhuixu/2.md"}',s={},r=o("p",null,"\u8D58\u5A7F\u6768\u8FB0 \u7B2C\u4E8C\u7AE0",-1),c=[r];function n(_,i,p,d,l,u){return a(),t("div",null,c)}var m=e(s,[["render",n]]);export{h as __pageData,m as default};
